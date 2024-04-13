@@ -1,0 +1,18 @@
+controller_list:
+  - name: fake_diana_arm_controller
+    type: $(arg fake_execution_type)
+    joints:
+      - joint1
+      - joint2
+      - joint3
+      - joint4
+      - joint5
+      - joint6
+      - joint7
+  - name: fake_hand_controller
+    type: $(arg fake_execution_type)
+    joints:
+      - diana_finger_joint1
+initial:  # Define initial robot poses per group
+  - group: diana_arm
+    pose: home

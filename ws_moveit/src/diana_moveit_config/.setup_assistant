@@ -1,0 +1,11 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: diana_description
+    relative_path: urdf/DianaV2_robot.urdf.xacro
+    xacro_args: ""
+  SRDF:
+    relative_path: config/DianaV2.srdf
+  CONFIG:
+    author_name: sakura
+    author_email: none@qq.com
+    generated_timestamp: 1690163956

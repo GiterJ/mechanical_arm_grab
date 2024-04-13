@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<launch>
+
+  <arg name="limited" default="false" />
+  <include file="$(find diana_description)/launch/DianaV2_upload.launch">
+    <arg name="limited" value="$(arg limited)"/>
+  </include>
+  <node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher" >
+    <remap from="/joint_states" to="/joint_states1" />
+  </node>
+
+
+  <node name="rviz" pkg="rviz" type="rviz" args="-d $(find diana_description)/urdf.rviz" />
+</launch>

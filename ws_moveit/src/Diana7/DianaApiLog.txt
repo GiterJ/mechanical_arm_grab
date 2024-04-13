@@ -1,0 +1,23 @@
+ip [192.168.10.75] has been added.
+
+192.168.10.75's server port : 37717(isOK=1)
+
+192.168.10.75's realtime server port : 38417 (isOK=1)
+
+192.168.10.75's passthrough server port : 51974 (isOK=1)
+
+192.168.10.75's Heartbeat port : 43986 (isOK=1)
+
+192.168.10.75's RobotState port : 36473 (isOK=1)
+
+192.168.10.75's UdpSocket Error(no callback function)::got error 0
+
+192.168.10.75's UdpSocket Error(no callback function)::got error 0
+
+Joint count is:7
+
+CHeartbeatSocket core thread stop running
+
+CRobotStateSocket core thread stop running
+
+destroySrv of ip 192.168.10.75 succeeded!

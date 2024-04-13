@@ -1,0 +1,8 @@
+prefix=/usr/local
+
+Name: diana_description
+Description: Description of diana_description
+Version: 1.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
