@@ -2,7 +2,7 @@
 
 *物体识别与抓取，硬件基于Intel realsense D435，Diana7 机械臂和 Jodell RG52夹爪，识别基于yolov7-mask，抓取位姿基于GPD生成，轨迹规划基于moveit* 
 
-https://github.com/GiterJ/mechanical_arm_grab/assets/113225690/ff695767-74cf-4c9e-94a3-558c4b7532e3
+https://github.com/GiterJ/mechanical_arm_grab/assets/113225690/1a3a665a-43c7-4870-9269-5c45ee54d2d4
 
 
 ## Attention
